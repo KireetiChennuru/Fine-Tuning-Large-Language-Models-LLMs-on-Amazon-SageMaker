@@ -85,7 +85,7 @@ The architecture follows a serverless model using AWS managed services, ensuring
    - Test the fine-tuned LLM on a validation dataset to assess its performance. This step ensures the model is performing as expected and is ready for deployment.
    - Address any issues or make necessary refinements.
 
-  ![Architecture Diagram](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Architecture%20Diagram%202.jpeg?raw=true)
+  ![Architecture Diagram](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/AWS%20SageMaker%20Endpoint.png?raw=true)
 
 
 6. **Deploy the Model:**
