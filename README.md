@@ -134,4 +134,8 @@ The architecture follows a serverless model using AWS managed services, ensuring
 - Monitor logs in CloudWatch for any errors during API requests.
 - Use A/B testing to compare performance metrics before and after fine-tuning.
 
+<br>
 
+## Author
+
+- Kireeti Chennuru | www.linkedin.com/in/kireeti-chennuru
