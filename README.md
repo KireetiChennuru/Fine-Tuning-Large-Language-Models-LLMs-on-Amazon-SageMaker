@@ -26,7 +26,7 @@ Refer to the architecture diagram visual representation of the setup and illustr
  - An AWS lambda function is written to interface with the sage maker end point. This function handles the input and output formats and serves as a bridge between Amazon AP Gateway and LLM, providing streamline process.
  - API Gateway is configured to create a restful API for the lambda function. This step exposes the LLM functionality to external applications and provide secure and managed access to the LLM.
  - A web application is built, serving as the user interface to interact with the LLM. The application resides in an S3 bucket with static website hosting enabled and permission set as needed.  
-•	An Amazon cloud distribution is established to act as a content Delivery network CDN for the application hosted on Amazon S3. Cloud front ensures that users from variations have optimized and secure access to the application.
+ - An Amazon cloud distribution is established to act as a content Delivery network CDN for the application hosted on Amazon S3. Cloud front ensures that users from variations have optimized and secure access to the application.
 
 
 - **Services Used:** 
