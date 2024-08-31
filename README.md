@@ -58,6 +58,8 @@ The architecture follows a serverless model using AWS managed services, ensuring
    - Check the GPU memory to ensure compatibility with your model.
      
 ![Setup SageMaker Notebook](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Fine%20tuning%20-%20Check%20GPU%20Memory%20.png?raw=true)
+![Setup SageMaker Notebook](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/SageMaker%20Jupyter%20Notebook.png?raw=true)
+
 
 
 2. **Prepare Training Dataset:**
@@ -78,7 +80,7 @@ The architecture follows a serverless model using AWS managed services, ensuring
    - Define the training parameters and use the SageMaker `Trainer` API to fine-tune the model. This process adapts the model to the specific data provided by the customer.
    - Save the fine-tuned model artifacts back to S3.
 
-  ![Architecture Diagram](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Architecture%20Diagram%202.jpeg?raw=true)
+  ![Architecture Diagram](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Fine%20tuning%20-%20Define%20trainer%20and%20Fine%20tune%20LLM.png?raw=true)
 
 
 5. **Test the Fine-Tuned LLM:**
@@ -109,6 +111,8 @@ The architecture follows a serverless model using AWS managed services, ensuring
 
 
 ## Testing and Validation
+
+  ![Testing and Validation](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Fine-Tuning%20an%20LLM%20on%20SageMaker%20-%20Output%202.png?raw=true)
 
 
 ### Testing Steps
