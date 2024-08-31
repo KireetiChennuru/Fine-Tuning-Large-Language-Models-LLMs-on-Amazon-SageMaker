@@ -121,13 +121,13 @@ The architecture follows a serverless model using AWS managed services, ensuring
    - Use the SageMaker notebook to send test requests to the deployed endpoint.
    - Validate the model's performance with sample inputs.
 
-2. **Web Application Testing:**
-   - Access the web application through the CloudFront URL.
-   - Send requests via the application to test the full flow from the front end to the backend Lambda function.
-
-3. **API Gateway and Lambda Validation:**
+2. **API Gateway and Lambda Validation:**
    - Ensure that API Gateway correctly routes requests to the Lambda function.
    - Validate that the Lambda function correctly processes the requests and returns accurate responses from the model.
+  
+3. **Web Application Testing:**
+   - Access the web application through the CloudFront URL.
+   - Send requests via the application to test the full flow from the front end to the backend Lambda function.
 
 ### Validation Methods
 - Compare model outputs against expected results.
