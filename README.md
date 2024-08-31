@@ -85,15 +85,14 @@ The architecture follows a serverless model using AWS managed services, ensuring
    - Test the fine-tuned LLM on a validation dataset to assess its performance. This step ensures the model is performing as expected and is ready for deployment.
    - Address any issues or make necessary refinements.
 
-  ![Architecture Diagram](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/AWS%20SageMaker%20Endpoint.png?raw=true)
-
+    ![Deploy the Model](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Fine%20tuning%20-%20Deploy%20the%20Fine%20tune%20model.png?raw=true)
+  ![Deploy the Model](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Fine%20tuning%20-%20Test%20the%20deployed%20inference%20.png?raw=true)
 
 6. **Deploy the Model:**
    - Deploy the fine-tuned LLM to a SageMaker endpoint.
    - Store the model artifacts in an S3 bucket for future reference.
   
-  ![Deploy the Model](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Fine%20tuning%20-%20Deploy%20the%20Fine%20tune%20model.png?raw=true)
-  ![Deploy the Model](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/Fine%20tuning%20-%20Test%20the%20deployed%20inference%20.png?raw=true)
+ ![Architecture Diagram](https://github.com/KireetiChennuru/Fine-Tuning-Large-Language-Models-LLMs-on-Amazon-SageMaker/blob/main/Project_Files/AWS%20SageMaker%20Endpoint.png?raw=true)
 
 7. **Configure API Gateway and Lambda:**
    - Write an AWS Lambda function to interface with the SageMaker endpoint. This function handles the input and output formats and serves as a bridge between the Amazon API Gateway and the LLM.
