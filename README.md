@@ -17,6 +17,16 @@ Refer to the architecture diagram visual representation of the setup and illustr
 - **NLP Tasks:** LLMs can be applied to various NLP tasks such as text generation, sentiment analysis, language translation, and question-answering systems.
 
 ## Architecture Diagram Core Aspects:
+ - A pre-trained large language model is fine tuned for specific tasks by using Amazon Sage maker. Using the knowledge obtained from enormous amounts of data, the LLM is adapted to a unique problem domain using the efficiency and generalization capabilities of trans learning
+ - An Amazon Sage maker notebook, instance is a machine learning (ML) compute instance running the Jupiter notebook app. The instance notebook is set up, importing the required libraries and tools.
+ - Sage maker FAQ data is loaded and pre-processed, ensuring that it’s in the right format for training. This step is the foundation for the entire fine-tuning process, providing the necessary environment and data
+ - A pre-trained LLM is loaded in the instance notebook fine tuning techniques are used to adapt the model to specific data, taking advantage of the pre-trained models, existence, knowledge and structure.
+ - Fine-tuned LLM is tested on a validation data set to assess its performance. The step ensures that the model is performing as expected and is ready for deployment, addressing any issues or refinements.
+ - The fine-tuned LLM, with a design configured settings, is deployed to a sage maker endpoint. This endpoint serves as the gateway for accessing the LLM, facilitating prediction request. Model artworks are stored in an S3 bucket on Amazon, simple storage service (Amazon S3)
+ - An AWS lambda function is written to interface with the sage maker end point. This function handles the input and output formats and serves as a bridge between Amazon AP Gateway and LLM, providing streamline process.
+ - API Gateway is configured to create a restful API for the lambda function. This step exposes the LLM functionality to external applications and provide secure and managed access to the LLM.
+ - A web application is built, serving as the user interface to interact with the LLM. The application resides in an S3 bucket with static website hosting enabled and permission set as needed.  
+•	An Amazon cloud distribution is established to act as a content Delivery network CDN for the application hosted on Amazon S3. Cloud front ensures that users from variations have optimized and secure access to the application.
 
 
 - **Services Used:** 
