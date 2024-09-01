@@ -29,7 +29,7 @@ Refer to the architecture diagram visual representation of the setup and illustr
  - An Amazon cloud distribution is established to act as a content Delivery network CDN for the application hosted on Amazon S3. Cloud front ensures that users from variations have optimized and secure access to the application.
 
 
-- **Services Used:** 
+### Services Used
   - Amazon Simple Storage Service (S3)
   - AWS Lambda
   - Amazon API Gateway
