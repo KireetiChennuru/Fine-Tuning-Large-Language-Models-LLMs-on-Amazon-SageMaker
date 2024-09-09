@@ -17,7 +17,7 @@ Refer to the architecture diagram visual representation of the setup and illustr
 - **NLP Tasks:** LLMs can be applied to various NLP tasks such as text generation, sentiment analysis, language translation, and question-answering systems.
 
 ## Architecture Diagram Core Aspects:
- - A pre-trained large language model is fine tuned for specific tasks by using Amazon SageMaker. Using the knowledge obtained from enormous amounts of data, the LLM is adapted to a unique problem domain using the efficiency and generalization capabilities of trans learning
+ - A pre-trained large language model is fine tuned for specific tasks by using Amazon SageMaker. Using the knowledge obtained from enormous amounts of data, the LLM is adapted to a unique problem domain using the efficiency and generalization capabilities of transfer learning
  - An Amazon SageMaker notebook instance is a machine learning (ML) compute instance running the Jupiter notebook app. The instance notebook is set up, importing the required libraries and tools.
  - Sage maker FAQ data is loaded and pre-processed, ensuring that it’s in the right format for training. This step is the foundation for the entire fine-tuning process, providing the necessary environment and data
  - A pre-trained LLM is loaded in the instance notebook fine tuning techniques are used to adapt the model to specific data, taking advantage of the pre-trained models, existence, knowledge and structure.
